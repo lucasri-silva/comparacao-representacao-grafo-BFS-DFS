@@ -160,3 +160,7 @@ Item* Dequeue(Fila *f){
 
   return aux;
 }
+
+void stop() {
+  printf("STOP ...");getchar();while(getchar() != '\n');
+}
