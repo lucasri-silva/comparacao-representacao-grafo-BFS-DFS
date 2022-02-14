@@ -50,7 +50,6 @@ struct TipoFila{
 };
 
 Fila* FFVazia();
-/*void Queue(Fila *f, int vertex);*/
 void Queue(Fila *f, int x, int y);
 Item* Dequeue(Fila *f);
 
